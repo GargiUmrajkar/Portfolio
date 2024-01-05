@@ -12,6 +12,7 @@ import {
   azure,
   cpp,
   nodejs,
+  sql,
   mongodb,
   tensorflow,
   git,
@@ -105,8 +106,8 @@ const technologies = [
     icon: tensorflow,
   },
   {
-    name: "OpenCV",
-    icon: opencv,
+    name: "SQL",
+    icon: sql,
   },
   {
     name: "Azure",
@@ -139,7 +140,7 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
-  }
+  },
 ];
 
 const experiences = [

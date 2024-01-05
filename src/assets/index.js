@@ -22,6 +22,7 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import reactjs from "./tech/reactjs.png";
 import nodejs from "./tech/nodejs.png";
+import sql from "./tech/sql.png";
 
 import DT from "./company/DT.png";
 import MB from "./company/MB.png";
@@ -60,6 +61,7 @@ export {
   javascript,
   mongodb,
   nodejs,
+  sql,
   reactjs,
   azure,
   cpp,
