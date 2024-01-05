@@ -23,9 +23,9 @@ import mongodb from "./tech/mongodb.png";
 import reactjs from "./tech/reactjs.png";
 import nodejs from "./tech/nodejs.png";
 
-import Infosys from "./company/Infosys.png";
-import Spotle from "./company/Spotle.png";
-import Allsoft from "./company/Allsoft.png";
+import DT from "./company/DT.png";
+import MB from "./company/MB.png";
+import PT from "./company/PT.png";
 
 import imageeditor from "./project/imageeditor.png";
 import eventbuzz from "./project/eventbuzz.png";
@@ -66,9 +66,9 @@ export {
   opencv,
   python,
   tensorflow,
-  Infosys,
-  Spotle,
-  Allsoft,
+  DT,
+  MB,
+  PT,
   imageeditor,
   eventbuzz,
   eazypark,

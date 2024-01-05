@@ -16,9 +16,9 @@ import {
   tensorflow,
   git,
   java,
-  Infosys,
-  Spotle,
-  Allsoft,
+  DT,
+  PT,
+  MB,
   imageeditor,
   eventbuzz,
   eazypark,
@@ -46,10 +46,6 @@ export const navLinks = [
   {
     id: "projects",
     title: "Projects",
-  },
-  {
-    id: "research",
-    title: "Research",
   },
   {
     id: "contact",
@@ -87,7 +83,7 @@ const bio = [
     role: "Software Developer",
   },
   {
-    role: "Full Stack Developer",
+    role: "AI-ML Engineer",
   },
 ];
 
@@ -143,47 +139,62 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
-  },
+  }
 ];
 
 const experiences = [
   {
-    title: "Data Engineer",
-    company_name: "Infosys Pvt. Ltd",
-    company_url: "https://www.infosys.com/",
-    icon: Infosys,
+    title: "Product Design Engineer - Data Engineer",
+    company_name: "Daimler Truck Innovation Centre India (DTICI)",
+    company_url: "https://locations.daimlertruck.com/en/career/locations/detail/bengaluru-daimler-truck-innovation-center-india-private-limited",
+    icon: DT,
     iconBg: "#E4E4E4",
-    date: "Oct 2021 - Jun 2023",
+    date: "Jul 2022 - Jul 2023",
     points: [
-      `Led a team of 8 members to build highly efficient Azure Data Factory (ADF) pipelines, resulting in a 50% improvement in data
-      extraction speed from diverse external sources and streamlining the data ingestion process`,
-      "Transformed client's codebase from USQL to TSQL using Power Automate, optimizing query execution time by 40%, and saving 150+ man-hours monthly in data processing",
-      "Upgraded storage mechanism for a UK-based client from Gen1 storage to Gen2 storage, boosting data access speed by 30% and ensuring more robust data management capabilities",
-      "Enhanced data processing by 40% with efficient PySpark and TSQL scripts for Change Data Capture (CDC)",
-      "Streamlined code deployment process for test environment, resulting in a 20% reduction in testing cycle time and a 15% decrease in post-deployment issues, leading to significant time and resource savings for the team",
+      `Developed a cost-effective Quality Management Backend for Truck Parts, saving $1 million annually by eliminating the need for third-party software and reducing processing time by 95%. Implemented statistical tools, achieving a 90% improvement in data-driven decision-making through graphs like Probability Distribution and Time Series`,
+      `Led team management, spearheading sprint planning and Kanban updates to enhance team efficiency and project delivery`,
+      `Executed an initiative to replace third-party software, creating a streamlined packaging system`,
     ],
   },
   {
-    title: "Data Analyst Intern",
-    company_name: "Spotle.ai",
-    company_url: "https://spotle.ai/",
-    icon: Spotle,
+    title: "Student Trainee - Developer Intern",
+    company_name: "Daimler Truck Innovation Centre India (Formerly MBRDI)",
+    company_url: "https://locations.daimlertruck.com/en/career/locations/detail/bengaluru-daimler-truck-innovation-center-india-private-limited",
+    icon: DT,
     iconBg: "#E4E4E4",
-    date: "Jan 2021 - Feb 2021",
+    date: "Nov 2021 - May 2022",
     points: [
-      "Played a pivotal role in the data analytics team, developing a Twitter Trend Analyzer which processed over 100,000 tweets using Python, NLTK, Matplotlib, and WordCloud, achieving an accuracy of 83%",
-      "Employed Natural Language Processing and advanced text-processing techniques on COVID-19 datasets to uncover and interpret diverse trends, gaining critical insights into public sentiment and information spread",
+      `Engineered a bottleneck analysis visualization system cutting physical analysis time across diverse manufacturing lines, with an 85% accuracy rate in bottleneck detection. Showcased a flexible model applicable to various manufacturing scenarios, streamlining operations for improved efficiency`,
     ],
   },
   {
-    title: "Internship Trainee",
-    company_name: "Allsoft Solutions Pvt. Ltd.",
-    company_url: "https://www.allsoftsolutions.in/IBM/Main",
-    icon: Allsoft,
+    title: "Student Trainee - Developer Intern",
+    company_name: "Mercedes Benz Research and Development India (MBRDI)",
+    company_url: "https://www.mbrdi.co.in/#/",
+    icon: MB,
     iconBg: "#E4E4E4",
-    date: "May 2020 - Jul 2020",
+    date: "Sep 2021 - Oct 2021",
     points: [
-      "Collaborated in a team to drive development of a COVID-19 detection system by scanning chest X-rays, attaining an 89.4% accuracy through strategic utilization of (CNNs) and advanced Image Processing techniques",
+      `Conducted comprehensive analysis of automation challenges, leveraging Tableau to formulate and deliver innovative software
+      solutions`,
+      `Established a robust database system to catalog and manage supplier quality data on the azure sql platform. Conducted data
+      processing and feature engineering to strengthen its utility and value`,
+    ],
+  },
+  {
+    title: "AI-ML Intern",
+    company_name: "Plural Technology Private Limited",
+    company_url: "https://www.pluraltechnology.com/",
+    icon: PT,
+    iconBg: "#E4E4E4",
+    date: "Mar 2021 - Jul 2021",
+    points: [
+      `Executed component classification utilizing supervised learning techniques, resulting in a highly accurate model. Deployed the model on 
+      the AWS cloud platform, ensuring scalability and accessibility. This initiative significantly improved the efficiency of a Fortune 500 
+      company's parts classification process, reducing manual efforts by 95% and achieving an accuracy rate of 90%`,
+      `Adopted applied Agile project management methodologies to drive efficient project execution and demonstrated leadership in
+      the management of JIRA, optimizing team collaboration and workflow management`,
+      `Secured a full-time position as an AI-ML Trainee in recognition of exceptional performance from a team of 5`,
     ],
   },
 ];
@@ -232,9 +243,12 @@ const projects = [
     source_code_link: "https://github.com/GargiUmrajkar/EventBuzz",
   },
   {
-    name: "Eazy_Park",
+    name: "Youtube Adviews Prediction",
     description:
-      "Led team Coding_Capitals3 to 2nd at Student Hackday 2019, Delhi, innovating a parking solution with Masked R-CNN and COCO dataset. Achieved 0.92 confidence in detecting 80 types, enhancing urban parking spot identification and accessibility. The project demonstrated deep learning expertise and a commitment to addressing urban challenges, contributing to smarter city solutions and improving daily life with advancements in object recognition.",
+      `Advanced advertising strategies with a predictive model utilize Decision Tree Regressor, Random Forest Regressor, and 
+      Artificial Neural Network to forecast adview counts based on diverse YouTube metrics. 
+      This approach significantly optimizes ad placement and timing by understanding viewer behavior, 
+      leading to a substantial 65% performance boost for advertisers.`,
     tags: [
       {
         name: "python",
@@ -250,7 +264,7 @@ const projects = [
       },
     ],
     image: eazypark,
-    source_code_link: "https://github.com/VanditGupta/Eazy_Park",
+    source_code_link: "https://github.com/Gargi-U/Youtube-Adviews-Prediction",
   },
 ];
 
