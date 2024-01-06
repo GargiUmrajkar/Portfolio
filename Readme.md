@@ -1,4 +1,4 @@
-# [Portfolio Website](https://gargiumrajkar.com)
+# [Portfolio Website]([https://portfolio-1t661658a-gargi-umrajkars-projects.vercel.app/])
 
 Welcome to my portfolio website repository! This website showcases my experiences, projects, and skills. Feel free to explore and get to know me better.
 
@@ -30,4 +30,4 @@ This portfolio website and its contents are released under the [MIT](https://git
 
 ---
 
-**Website:** [gargiumrajkar.com](https://gargiumrajkar.com)
+**Website:** https://portfolio-1t661658a-gargi-umrajkars-projects.vercel.app/
