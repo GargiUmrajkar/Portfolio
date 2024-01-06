@@ -1,5 +1,5 @@
 import logo from "./logo/logo.svg";
-
+import profileImage from "./profile/profile.png";
 import backend from "./hologram/backend.png";
 import creator from "./hologram/creator.png";
 import mobile from "./hologram/mobile.png";
@@ -47,6 +47,7 @@ import ashish from "./paper/author/ashish.png";
 
 export {
   logo,
+  profileImage,
   backend,
   creator,
   mobile,
