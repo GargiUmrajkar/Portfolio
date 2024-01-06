@@ -1,4 +1,4 @@
-# [Portfolio Website]([https://portfolio-1t661658a-gargi-umrajkars-projects.vercel.app/])
+# [Portfolio Website](https://portfolio-1t661658a-gargi-umrajkars-projects.vercel.app/)
 
 Welcome to my portfolio website repository! This website showcases my experiences, projects, and skills. Feel free to explore and get to know me better.
 
